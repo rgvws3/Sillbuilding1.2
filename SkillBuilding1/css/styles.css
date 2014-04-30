@@ -16,6 +16,7 @@ body {
   overflow-x: hidden;
   font-family: Nunito;
 }
+nav {position:fixed; width:100%; top:0;}
 
 h1 {
    font-size: 250%
@@ -27,7 +28,7 @@ p {
   color: #333;
 }
 
-.slide {
+.slide {float:left;
   position: relative;
   padding: 25vh 10%;
   min-height: 100vh;
@@ -93,29 +94,29 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-6.jpg");
+  background-image:url(../img/honeycomb.jpg);
    background-attachment: fixed;  
 }
 
 #slide1:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-4.jpg");
+  background-image: url(../img/Meadow-Flowers-Wallpapers-1-1.jpg);
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide2 {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");
+  background-image: url(../img/Chalkboard.jpg);
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");
+  background-image: url(../img/flickr-906727708-hd.jpg);
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide4 {
-  background: #222;
+  background-image: url(../img/flickr-3460968236-hd.jpg);
 }
 
 
